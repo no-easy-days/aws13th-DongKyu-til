@@ -16,8 +16,7 @@
 2. **README 업데이트**: 작성한 파일을 찾아보기 쉽도록 이 `README.md` 파일의 위쪽 목록에 링크를 추가합니다.
     
     ```
-    - [제목](파일경로.md)
-    
+  Day 1. Git/GitHub, GitHub CLI (gh) [https://github.com/no-easy-days/aws13th-DongKyu-til/blob/main/2025-12/2025-12-23]
     ```
     
 3. **Commit & Push**: 작성한 내용과 변경된 README를 저장소에 올립니다.
