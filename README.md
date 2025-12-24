@@ -17,7 +17,7 @@
     
     ``` 
   Day 1. Git/GitHub, GitHub CLI (gh) [https://github.com/no-easy-days/aws13th-DongKyu-til/blob/main/2025-12/2025-12-23]
-    ```
+    
     
 3. **Commit & Push**: 작성한 내용과 변경된 README를 저장소에 올립니다.
 4. TIL 작성을 로컬에서 IDE 등으로 작성하면 이미지 및 동영상 파일 관리하기가 쉽지 않습니다.
