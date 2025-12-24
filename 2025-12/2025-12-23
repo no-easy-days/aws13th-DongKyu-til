@@ -40,36 +40,36 @@ git status	내용의 변화가 있는 파일들의 변경된 사항들을 확인
 
 ### Git / GitHub
 
-```bash
+`
 $ git --version  
 // 버전 확인하기
-
-```bash
+`
+`
 $ git config --global user.name "[username]"
 $ git config --global user.email "[useremail]"
 // 환경 설정: git config
+`
 
-
-```bash
+`
 $ git init
 // 저장소 만들기, 새 프로젝트에서 Git을 사용하려면 저장소를 초기화해야 함
-
-```bash
+`
+`
 $ git log
 // 지금까지의 커밋 기록 확인
-
-```bash
+`
+`
 $ git status
 // 상태 확인하기
-
-```bash
+`
+`
 $ git add
 // 커밋하고 싶은 파일을 Staging Area에 올리기
-
-```bash
+`
+`
 $ git commit
 // Staging Area의 내용을 저장소에 영구 기록
-
+`
 Git 저장소 만들기
 단계 : 1. 폴더 생성 -> 2. 파일 생성 -> 3. 저장소 만들기: git init -> 4. 이력 확인: git log
  -> 5. 상태 확인: git status -> 6. 영구 기: git commit
@@ -86,10 +86,10 @@ Git 저장소 만들기
 
 HEAD :
 - 현재 내 위치
-
+`
 $ git switch (branch이름)
 // Branch 이동
-
+`
 
 
 ### merge
@@ -97,12 +97,14 @@ merge (병합) : 두 개의 브랜치를 하나로 합치는 것
 사용하는 이유 : 두 브랜치가 서로 다른 커밋을 가지게 되기 때문
 
 merge 사용 단계 : 1. 합칠 브랜치로 이동 -> 2. 가져올 브랜치를 병합
-
+`
 $ git switch (브랜치 이름)
 // 합칠 브랜치로 이동
-
+`
+`
 $ git merge 가져올 (브랜치 이름)
 // 가져올 브랜치를 병합
+`
 
 merge 하다가 충돌 발생 시 (Conflict) :
 - 두 브랜치 내용 중 하나 선택
@@ -113,21 +115,24 @@ merge 하다가 충돌 발생 시 (Conflict) :
 
 ### 원격 저장소
 
+`
 $ git remote
 // 원격 저장소 연결
-
+`
+`
 $ git remote add origin [URL]
 // 원격 저장소 추가
-
+`
+`
 $ git remote -v
 // 등록된 원격 저장소 확인
-
-
+`
+`
 $ git pull ~
 // 원격 → 로컬 가져오기
 $ git push ~
 // 로컬 -> 원격 내보내기
-
+`
 
 
 ```
